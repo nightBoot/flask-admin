@@ -1,0 +1,5 @@
+<BookContext.Provider value={{ handleRefresh, handleReHei }}></BookContext.Provider>
+
+const handleRefresh = React.useContext(BookContext); 
+上面定义了handleRefresh, handleReHei，
+我只引入handleRefresh
